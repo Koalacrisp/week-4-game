@@ -1,0 +1,143 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/Fallout_Background.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+p {
+	font-family: Arial, Helvetica;
+}
+
+.titlescreen {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	position: relative;
+}
+
+.titlescreen img {
+	background-color: black;
+	padding-bottom: 15px;
+	border-right: solid 2px #4CFF00;
+	border-left: solid 2px #4CFF00;
+	border-bottom: solid 2px #4CFF00;
+	border-radius: 25px;
+}
+
+.titlescreen input {
+	background-color: black;
+	border: solid 2px #4CFF00;
+	margin-left: 34%
+}
+
+.heroes {
+	margin-left: 34%;
+	margin-right: 34%;
+	margin-top: 15%;
+	display: block;
+	width: 650px;
+	position: fixed;
+}
+
+.heroes input {
+	border: solid 2px #4CFF00;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	display: inline-block;
+}
+
+.heroes button {
+	display: block;
+}
+
+.enemies {
+	position: relative;
+	float: right;
+	clear: left;
+	width: 304px;
+	height: 100%;
+	margin-right: 1%;
+}
+
+.enemies input {
+	border: solid 2px #4CFF00;
+	margin-top: 1%;
+	margin-left: 1%;
+	height: 300px;
+	width: 300px;
+}
+
+.player {
+	position: absolute;
+	float: left;
+	clear: right;
+	width: 304px;
+	height: 100%;
+}
+
+.player input {
+	border: solid 2px #4CFF00;
+	margin-top: 1%;
+	margin-left: 1%;
+	height: 300px;
+	width: 300px;
+}
+
+.healthbar {
+	border-left: solid 2px #4CFF00;
+	border-right: solid 2px #4CFF00;
+	border-bottom: solid 2px #4CFF00;
+	height: 20px;
+	width: 300px;
+	margin-left: 1%;
+}
+
+.health {
+	background: green;
+	height: 20px;
+	width: 300px;
+}
+
+.enHealthbar {
+	border-left: solid 2px #4CFF00;
+	border-right: solid 2px #4CFF00;
+	border-bottom: solid 2px #4CFF00;
+	height: 20px;
+	width: 400px;
+}
+
+.enHealth {
+	background: green;
+	height: 20px;
+	width: 400px;
+}
+
+.attack {
+	position: fixed;
+	border: solid 2px #4CFF00;
+	background-color: black;
+	color: #4CFF00;
+	margin-top: 1%;
+	margin-left: 315px;
+}
+
+.enemy {
+	margin-left: 40%;
+	margin-top: 15%;
+	display: block;
+	width: 650px;
+	position: fixed;
+}
+
+.enemy input {
+	border: solid 2px #4CFF00;
+	height: 400px;
+	width: 400px;
+	position: relative;
+	display: inline-block;
+}
